@@ -1,0 +1,63 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: wheat;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.logom{
+  margin-bottom: 40px;
+  color: wheat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: margin-left 0.3s ease;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+video{position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  animation: fadeIn 5s ease-in-out forwards;
+}
+
+
+footer {
+  margin-top: auto; /* Footer'ı sayfanın en altına sabitler */
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin-left: 0; /* Mobil cihazlarda menü kapanacak */
+  }
+  p{
+    font-size: 12px ;
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+  visibility: hidden;
+  opacity: 0
+}

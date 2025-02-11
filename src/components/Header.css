@@ -1,0 +1,77 @@
+/* Navbar Genel */
+header{
+  display: grid;
+  gap: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+    background: #222;
+    color: white;
+  }
+  
+  /* Logo */
+  .logo a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  /* Menü */
+  .menu {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: #f39c12;
+  }
+  
+  /* Menü Butonu (Mobil için) */
+  .menu-btn {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .icerik p,h2{
+    color: #fff;
+  }
+  
+  /* Mobil Görünüm */
+  @media (max-width: 768px) {
+    .menu {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: #222;
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+      padding: 10px 0;
+      display: none;
+    }
+  
+    .menu.open {
+      display: flex;
+    }
+  
+    .menu-btn {
+      display: block;  
+      
+
+    }
+  }
+  

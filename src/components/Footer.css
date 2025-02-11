@@ -1,0 +1,30 @@
+.footer {
+  position: relative;
+  background-color: #444;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.footer-left p {
+  color: wheat;
+  margin: 5px 0;
+} 
+.footer-center h2{
+  color: white;
+  font-size: small;
+}
+.footer-right a {
+  color: wheat;
+  font-size: 24px;
+  margin-left: 15px;
+  transition: transform 0.3s ease;
+}
+
+.footer-right a:hover {
+  transform: scale(1.2);
+  color: #a09d8f;
+}

@@ -1,0 +1,31 @@
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+  }
+  
+  .about h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    color: rgb(230, 223, 223);
+  }
+  .paragraf p{
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    max-width: 500px;
+    opacity: 0.8;
+  }
+  
