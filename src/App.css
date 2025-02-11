@@ -49,6 +49,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+  body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
   .content {
     margin-left: 0; /* Mobil cihazlarda menü kapanacak */
   }
