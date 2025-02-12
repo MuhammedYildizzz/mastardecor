@@ -1,14 +1,22 @@
 import React from "react";
 import "./Projects.css";
+import icmekan from "../../images/icmekan.webp"
+import villa from "../../images/villa.webp"
+import banyo from "../../images/banyo.webp"
+import mutfak from "../../images/mutfak.webp"
+import yatak from "../../images/yatak.webp"
+import koltuk from "../../images/koltuk.webp"
+import tadilat from "../../images/tadilat.webp"
+
 
 const projects = [
-  { id: 1, title: "Tadilat", desc: "Benzersiz yaşam alanı tasarımları.", img: "../../images/tadilat.webp" },
-  { id: 2, title: "Dekorasyon", desc: "Benzersiz yaşam alanı tasarımları.", img: "../../images/koltuk.webp" },
-  { id: 2, title: "Modern Villa", desc: "Minimalist tasarım, geniş cam paneller.", img: "../../images/villa.webp" },
-  { id: 2, title: "İç Mekan Dizaynı", desc: "Şık ve fonksiyonel yaşam alanları.", img:"../../images/icmekan.webp" },
-  { id: 3, title: "Yatak Odası", desc: "Benzersiz yaşam alanı tasarımları.", img: "../../images/yatak.webp" },
-  { id: 4, title: "Mutfak", desc: "Kullanışlı ve şık Mutfak tasarımları.", img: "../../images/mutfak.webp" },
-  { id: 4, title: "Banyo", desc: "Kullanışlı ve şık Mutfak tasarımları.", img: "../../images/banyo.webp" }
+  { id: 1, title: "Tadilat", desc: "Sessiz ve sorunsuz yenileme çalışmaları.", img:`${tadilat}` },
+  { id: 2, title: "Dekorasyon", desc: "Benzersiz yaşam alanı tasarımları.", img:`${koltuk}` },
+  { id: 2, title: "Modern Villa", desc: "Minimalist tasarım, geniş cam paneller.", img: `${villa}` },
+  { id: 2, title: "İç Mekan Dizaynı", desc: "Şık ve fonksiyonel yaşam alanları.", img:`${icmekan}` },
+  { id: 3, title: "Yatak Odası", desc: "Rahatlatıcı renkler, şık mobilyalar, huzurlu atmosfer.", img:`${yatak}` },
+  { id: 4, title: "Mutfak", desc: "Kullanışlı ve Şık Mutfak Tasarımları.", img:`${mutfak}` },
+  { id: 4, title: "Banyo", desc: "İçinizi ferahlatacak modern banyo tasarımları.", img:`${banyo}` }
   
 ];
 
