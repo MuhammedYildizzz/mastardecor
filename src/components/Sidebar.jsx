@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../İmages/logo.jpg";
+import logo from "../../images/logo.jpg";
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -12,6 +12,7 @@ const Sidebar = () => {
   };
   const toggleLi=()=>{
     setIsOpen(!isOpen);
+    window.scrollTo(0,0);
   }
 
   return (
@@ -53,7 +54,7 @@ const Sidebar = () => {
         className={`sidebar-toggle-btn ${isOpen ? "hidden" : ""}`}
         onClick={toggleSidebar}
       >
-        Menu
+        ≡
       </button>
     </>
   );

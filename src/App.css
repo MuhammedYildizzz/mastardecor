@@ -23,7 +23,6 @@ body {
 }
 .content {
   flex: 1;
-  padding: 20px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -51,8 +50,6 @@ footer {
 @media (max-width: 768px) {
   body{
     text-align: center;
-    display: flex;
-    flex-direction: column;
   }
   .content {
     margin-left: 0; /* Mobil cihazlarda menü kapanacak */

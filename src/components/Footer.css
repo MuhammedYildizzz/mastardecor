@@ -1,12 +1,12 @@
 .footer {
-  position: relative;
-  background-color: #444;
+  position:relative;
+  background-color: #111;
   color: white;
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  opacity: 0.8;
+  width: 100%;
 }
 
 .footer-left p {

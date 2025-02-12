@@ -1,11 +1,11 @@
 .contact-container {
+  gap: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   min-height: 100vh;
   background-color: transparent;
-  padding: 20px;
   
 }
 
@@ -23,7 +23,7 @@ form h2{
   margin-bottom: 15px;
 }
 .contact-input, .contact-textarea {
-  color: white;
+  color: black;
   background-color: transparent;
   width: 100%;
   padding: 10px;
@@ -56,4 +56,10 @@ form h2{
 
 .contact-button:hover {
   background: #0056b3;
+}
+iframe{border: none;
+  min-height: 500px;
+  margin: 0;
+  width:100%;
+  
 }

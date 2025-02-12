@@ -4,7 +4,7 @@ import Sidebar from './components/Sidebar';  // Sidebar'ı dahil ettik
 import Footer from './components/Footer';    // Footer'ı dahil ettik
 import Ekibimiz from './components/Ekibimiz';    // Footer'ı dahil ettik
 import './App.css';
-import vid from "../İmages/video.mov"
+import vid from "../images/video.mov"
 
 // Sayfalar
 import Home from './pages/Home';

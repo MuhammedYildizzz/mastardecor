@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.ekipbody img,.hizmetbody img{
+    border-radius: 10px;
+    max-width: 250px;
+    min-width: 150px;
+}
+.ekipbody p,.hizmetbody p{
+    font-size: x-large;
+}
+.ekraniki{
+    overflow: hidden;
+    background: url("../../images/salon.webp") fixed no-repeat;
+    background-size: cover;
+    min-height: 800px ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+}
+.ekipbody{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    max-width: 900px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+.ekipicerik{
+    padding: 20px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.hizmetbody{
+    float: right;
+    background-color: aliceblue;
+    max-width: 900px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+.hizmeticerik{
+    box-shadow: 0 0 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.hizmeticerikiki button{
+    background-color: gray;
+    margin: 10px;
+    width: 200px;
+
+}
+.hizmeticerikiki button:hover{
+    background-color:rgb(0, 69, 173);
+}
+@media screen and (max-width: 240px) {
+    .ekipbody{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}

@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+.ekraniki{
+    background-color: #ddd;
+}
 .EkipBody{
     box-shadow: 0 0 10px black;
     
@@ -31,26 +34,28 @@
     justify-content: center;
     display: flex;
 }
+
 .ekipkard h1 , .ekipkard p{
     font-size: 25px;
 }
-@media screen and (max-width: 480px) {
-    .Ekipkard{
-        display: flex;
-        flex-direction: column;
-    }
-    p {
+.sol button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 5px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    color: #000;
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
 
-      font-size: 14px;
-    }
-    .EkipBody img{
-        width: 150px;
-    }
-  }
-  *{
-    
-    margin: 0px;
-    padding: 0px;
+}
+.sol button:hover{
+    transition:0.4s ease-in;
+    background-color: rgb(166, 166, 136);
 }
 .HizmetBody{
     box-shadow: 0 0 10px black;
@@ -74,61 +79,15 @@
     border-radius: 20px;
     max-width: 185px ;
 }
-.ekipkard   {
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-.ekipkard h1 , .ekipkard p{
-    font-size: 25px;
-}
-.sol button{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-    cursor: pointer;
-    padding: 5px;
-    margin-top: 5px;
-    box-shadow: 0 0 10px black;
-    border-radius: 10px;
-    color: #000;
-    width: 80px;
-    height: 30px;
-    background-color: transparent;
-    border: none;
 
-}
-.sol button:hover{
-    transition:0.4s ease-in;
-    background-color: rgb(166, 166, 136);
-}
-
-
-@media screen and (max-width: 480px) {
-    .ekipkard{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
+@media (max-width: 768px) {
+    .ekipcard {
+      flex-direction: column;
+      text-align: center; /* Ortalamak için */
     }
-    .HizmetBody{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-    .EkipBody{
-        transition: transform 0.9s ease;
-        display: flex;
-        flex-direction: column;
-    }
-    p {
-
-      font-size: 14px;
-    }
-    img{
-        width: 150px;
+  
+    .ekipcard img {
+      width: 100%; /* Mobilde tam genişlik */
+      height: auto;
     }
   }

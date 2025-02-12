@@ -1,4 +1,6 @@
 .sidebar {
+  margin: 0;
+  border: none;
     opacity: 0.9;
     position: fixed;
     top: 0;
