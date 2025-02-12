@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import icmekan from "../../images/icmekan.webp"
-import villa from "../../images/villa.webp"
+import havuzluvilla from "../../images/havuzluvilla.webp"
 import banyo from "../../images/banyo.webp"
 import mutfak from "../../images/mutfak.webp"
 import yatak from "../../images/yatak.webp"
@@ -12,7 +12,7 @@ import tadilat from "../../images/tadilat.webp"
 const projects = [
   { id: 1, title: "Tadilat", desc: "Sessiz ve sorunsuz yenileme çalışmaları.", img:`${tadilat}` },
   { id: 2, title: "Dekorasyon", desc: "Benzersiz yaşam alanı tasarımları.", img:`${koltuk}` },
-  { id: 3, title: "Modern Villa", desc: "Minimalist tasarım, geniş cam paneller.", img: `${villa}` },
+  { id: 3, title: "Modern Villa", desc: "Minimalist tasarım, geniş cam paneller.", img: `${havuzluvilla}` },
   { id: 4, title: "İç Mekan Dizaynı", desc: "Şık ve fonksiyonel yaşam alanları.", img:`${icmekan}` },
   { id: 5, title: "Yatak Odası", desc: "Rahatlatıcı renkler, şık mobilyalar, huzurlu atmosfer.", img:`${yatak}` },
   { id: 6, title: "Mutfak", desc: "Kullanışlı ve Şık Mutfak Tasarımları.", img:`${mutfak}` },
